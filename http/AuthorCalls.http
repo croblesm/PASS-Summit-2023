@@ -1,0 +1,13 @@
+### Get all authors
+GET http://localhost:7071/api/authors
+
+### Add authors
+POST http://localhost:7071/api/authors
+Content-Type: application/json
+
+{
+    "first_name": "Yuval",
+    "middle_name": "Noah",
+    "last_name": "Harari",
+}
+###

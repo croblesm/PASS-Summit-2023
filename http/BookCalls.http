@@ -1,0 +1,42 @@
+### Add a book
+POST http://localhost:7071/api/books
+Content-Type: application/json
+
+{
+    "Title": "Foundation",
+    "Author": "Isaac Yudovick Asimov",
+    "Year": 1951
+}
+
+### Add a book
+POST http://localhost:7071/api/books
+Content-Type: application/json
+
+{
+    "Title": "2001: A Space Odyssey",
+    "Author": "Arthur Charles Clarke",
+    "Year": 1968
+}
+
+### Add a book
+POST http://localhost:7071/api/books
+Content-Type: application/json
+
+{
+    "Title": "The War of the Worlds",
+    "Author": "Herbert George Wells",
+    "Year": 1898
+}
+
+### Add a book
+POST http://localhost:7071/api/books
+Content-Type: application/json
+
+{
+    "Title": "Twenty Thousand Leagues Under the Sea",
+    "Author": "Jules Gabriel Verne",
+    "Year": 1870
+}
+
+### Get all books
+GET http://localhost:7071/api/books
